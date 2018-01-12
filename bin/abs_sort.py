@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 def checkio(numbers_array):
-    
     return sorted(numbers_array, key=abs)
     # return(sorted(numbers_array,key=lambda x: abs(x)))
 
@@ -17,3 +16,4 @@ if __name__ == '__main__':
     # assert check_it(checkio((1, 2, 3, 0))) == [0, 1, 2, 3], "Positive numbers"
     # assert check_it(checkio((-1, -2, -3, 0))) == [0, -1, -2, -3], "Negative numbers"
     print "done Testing..."
+    

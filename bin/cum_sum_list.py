@@ -13,6 +13,9 @@ def solution(input):
         
     return output
 
+# def wally():
+#    Counter
+
 #debug
 print solution([1,1,1])
 print solution([1,-1,3])
